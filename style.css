@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to right, #fdfbfb, #ebedee);
+    box-sizing: border-box;
+    
     margin: 0;
     padding: 0;
 }
@@ -29,7 +30,7 @@ body {
     color: #f76c6c;
 }
 .btn-get-started {
-    background-color: #ff7f50;
+    background-color: #FF7F50;
     color: white;
     border-radius: 20px;
     padding: 0.5rem 1.5rem;
@@ -72,6 +73,12 @@ body {
 }
 .carousel-indicators button {
     background-color: #8a2be2;
+}
+
+
+
+#hundet{
+  background: linear-gradient(to right, #f5f3ff, #fce4ec);
 }
 
 
@@ -163,26 +170,6 @@ body {
 
 
 
-@media (max-width: 576px) { .mobile { display: none; } }
-
-
-@media (max-width: 768px) { .mobile { display: none; /* ফোন এবং 768px এর নিচের স্ক্রিনে লুকাবে */ } }
-
-/* ফোনের (max-width: 576px) কম স্ক্রিনে */
-@media (max-width: 576px) {
-    .mobile {
-        display: none; /* 576px এর নিচের স্ক্রিনে লুকাবে */
-    }
-}
-
-
-/* 776px এর পর টেক্সটের সাইজ কমানো হবে */
-@media (max-width: 776px) {
-    .mobi {
-        font-size: 20px; /* এখানে প্রয়োজন অনুযায়ী সাইজ পরিবর্তন করুন */
-    }
-}
-
 
 
 
@@ -237,6 +224,35 @@ body {
     .teb{
         display: none;
     }
+
+
+
+#Nahid {
+  right: 10%;
+  top:30px;
+  position: relative;
+  
+  width:100%;
+  height: auto;
+  transform: scale(1.2);
+  
+}
+
+
+.contact-info{
+  width: 120%;
+  transform: scale(1.2);
+}
+
+
+
+
+.mobile{
+  display: none;
+}
+
+
+
 }
 
 
@@ -249,10 +265,12 @@ body {
 
 
 
-
+   #main{
+     background: linear-gradient(to right, #f5f3ff, #fce4ec);
+   }
   
     .container {
-      background-color: #f0eaff;
+      background-color: transparent;
       padding: 50px;
       border-radius: 15px;
       margin-top: 50px;
@@ -626,7 +644,7 @@ body {
     .img-grid img {
         width: 100%;
         border-radius: 10px;
-    }
+    }#42445A
 
 
 
@@ -697,3 +715,8 @@ body {
         margin: 0 5px;
         color: white;
     }
+    
+    
+    
+    
+    
