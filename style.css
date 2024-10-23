@@ -561,6 +561,25 @@ body {
     }
 }
 
+
+
+/* Price card hover animation for larger screens */
+@media (min-width: 992px) {
+    .price-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .price-card:hover {
+        transform: scale(1.05); /* Slight zoom on hover */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds shadow for effect */
+    }
+}
+
+
+
+
+
+        
 @media (min-width: 768px) { .prices-section .row { gap: 30px; } }
 
 
